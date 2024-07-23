@@ -8,7 +8,7 @@ This was developed as a university project, this Java console application enable
 <p>The application provides an intuitive menu-driven interface for university staff to interact with, offering the following options:</p>
 <ul>
     <li><strong>Check available seats:</strong> Displays the number of available slots for student registration.</li>
-    <li><strong>Register student:</strong> Allows for the registration of a student with a unique ID.</li>
+    <li><strong>Register student:</strong> Allows for the registration of a student with a unique ID. The ID should contain 8 characters, starting with ‘W’ followed by 7 numeric characters. </li>
     <li><strong>Delete student:</strong> Removes a student from the system.</li>
     <li><strong>Find student:</strong> Retrieves student details using their unique ID.</li>
     <li><strong>Store student details:</strong> Saves all student data to a file for persistence.</li>
@@ -20,14 +20,24 @@ This was developed as a university project, this Java console application enable
 <h3>Student Management</h3>
 <ul>
     <li><strong>Capacity:</strong> Manages up to 100 students per intake.</li>
-    <li><strong>Persistence:</strong> Save and load student data to/from files to ensure data persistence between sessions.</li>
+    <li><strong>Persistence:</strong> Save and load student data to/from files to ensure data persistence between sessions. The text file format is as follows: Student name, ID, and three marks for the respective modules. </li>
+    ![image](https://github.com/user-attachments/assets/e71a81f5-4483-4424-bef6-f69b17c921f9)
+
 </ul>
 
 <h3>Class-Based Design</h3>
 <ul>
     <li><strong>Student and Module Classes:</strong> Uses classes to handle student results, including student ID, name, and module marks.</li>
-    <li><strong>Grading System:</strong> Calculates grades based on average marks (Distinction, Merit, Pass, Fail).</li>
+    <li><strong>Grading System:</strong> Calculates grades based on average marks:
+        <ul>
+            <li><strong>Distinction:</strong> Average >= 80</li>
+            <li><strong>Merit:</strong> Average >= 70</li>
+            <li><strong>Pass:</strong> Average >= 40</li>
+            <li><strong>Fail:</strong> Average < 40</li>
+        </ul>
+    </li>
 </ul>
+
 
 <h3>Reporting</h3>
 <ul>
@@ -38,6 +48,7 @@ This was developed as a university project, this Java console application enable
 <h3>Testing</h3>
 <p>The PDF report Includes comprehensive test cases to ensure the reliability and performance of the application, covering various scenarios and use cases.</p>
 
+<h3> Getting Started </h3>
 <p>Feel free to explore, modify, and enhance the system. Contributions and feedback are welcome!</p>
 
 <p> Thanks for diving into this project! 🌟 I hope you enjoy the experience as much as I enjoyed creating it! 😊 </p>
