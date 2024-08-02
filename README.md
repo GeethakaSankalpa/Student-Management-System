@@ -21,7 +21,7 @@ This was developed as a university project, this Java console application enable
 <ul>
     <li><strong>Capacity:</strong> Manages up to 100 students per intake.</li>
     <li><strong>Persistence:</strong> Save and load student data to/from files to ensure data persistence between sessions. The text file format is as follows: Student name, ID, and three marks for the respective modules. </li>
-    ![Screenshot of File Format]([https://github.com/user-attachments/assets/e71a81f5-4483-4424-bef6-f69b17c921f9](https://github.com/GeethakaSankalpa/Student-Management-System/blob/main/Text%20File%20Format.png))
+    <img src="/images/Text File Format.png"> </img>
 
 </ul>
 
