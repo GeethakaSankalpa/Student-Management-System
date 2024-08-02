@@ -48,6 +48,10 @@ This was developed as a university project, this Java console application enable
 <h3>Testing</h3>
 <p>The PDF report Includes comprehensive test cases to ensure the reliability and performance of the application, covering various scenarios and use cases.</p>
 
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
+
 <h3> Getting Started </h3>
 <p>Feel free to explore, modify, and enhance the system. Contributions and feedback are welcome!</p>
 
